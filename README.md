@@ -19,7 +19,16 @@
 
 ## Backend Setup
 
-1. Create virtual environment
-
 ```bash
-python3 -m venv venv
+`python3 -m venv venv`
+- `. venv/bin/activate` or `.\venv\Scripts\activate.bat`
+- `pip install -r requirements.txt`
+- `uvicorn src.main:app --reload` (Must be in backend file)
+```
+
+#### Frontend
+```bash
+- `npm create vite@latest`
+- `npm install`
+- `npm run dev`
+``` 
